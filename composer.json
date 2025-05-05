@@ -1,7 +1,7 @@
 {
   "name": "finance/report",
   "description": "财务数据上传",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -37,6 +37,10 @@
     {
       "type": "composer",
       "url": "https://packagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
     }
   ],
   "minimum-stability": "stable"

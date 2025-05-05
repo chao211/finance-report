@@ -22,6 +22,7 @@ class PaymentOrderTables extends Migrator
                 ->addColumn(Column::string('project', 100)->setComment('项目名称'))
                 ->addColumn(Column::integer('order_time')->setComment('下单时间'))
                 ->addColumn(Column::integer('pay_success_time')->setComment('支付时间'))
+                ->addColumn(Column::tinyInteger('data_type')->setDefault(1)->setComment('1 单笔付款 2 批量付款 3 批量补单'))
                 ->addColumn(Column::tinyInteger('report_status')->setDefault(0)->setComment('上报状态'))
                 ->addColumn(Column::integer('create_time')->setComment('记录添加时间'))
                 ->addColumn(Column::integer('update_time')->setComment('记录修改时间'))
