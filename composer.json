@@ -1,7 +1,7 @@
 {
-  "name": "finance/report",
-  "description": "财务数据上传",
-  "version": "1.0.1",
+  "name": "finance/reporting",
+  "description": "Financial data reporting",
+  "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -43,5 +43,6 @@
       "url": "https://mirrors.aliyun.com/composer/"
     }
   ],
-  "minimum-stability": "stable"
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
